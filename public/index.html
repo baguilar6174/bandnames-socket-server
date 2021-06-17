@@ -23,9 +23,16 @@
         // Emit event
         socket.emit('message', { name: 'Bryan' });
         // Listen event
-        socket.on('message', function (payload) {
+        socket.on('new-message', function (payload) {
             console.log('Listen: ', payload);
         });
+
+        // Listen event
+        socket.on('active-bands', function (payload) {
+            console.clear();
+            console.table(payload);
+        });
+
     </script>
 </body>
 
