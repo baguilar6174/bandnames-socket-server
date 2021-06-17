@@ -42,6 +42,12 @@ npm run start:dev
 - Creación de directorios públicos
 - Variables de entorno y scripts
 - Emitir y escuchar eventos
+- Heroku
+- Despligues usando Git
+- Consumir aplicación de Node en la nube
+- Heroku CLI y despliegues
+
+El servidor ha sido desplegado en https://bands-app-socket-server.herokuapp.com/
 
 ## Características
 
