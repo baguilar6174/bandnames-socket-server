@@ -47,8 +47,6 @@ npm run start:dev
 - Consumir aplicación de Node en la nube
 - Heroku CLI y despliegues
 
-El servidor ha sido desplegado en https://bands-app-socket-server.herokuapp.com/
-
 ## Características
 
 - Creación de modelos para manipulación de objetos
